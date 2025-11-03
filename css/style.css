@@ -1,0 +1,182 @@
+body{
+    background-image: url(../img/witch.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 60rem;
+    height: 40rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.witch{
+    bottom: 0;
+    height: inherit;
+    left: 10rem;
+    position: absolute;
+    width: 25rem;
+}
+
+.hair{
+background-color: rgb(255, 123, 0);
+border-bottom-left-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
+height: 8rem;
+left: 6rem;
+position: absolute;
+top: 11rem;
+width: 12rem;
+}
+
+.head{
+height: 6rem;
+background-color: #F5DABF;
+border-bottom-left-radius: 10rem;
+border-bottom-right-radius: 10rem;
+left: 8rem;
+position: absolute;
+top: 12rem;
+width: 8rem;
+}
+
+.head-copy{
+    background-color: #F5DABF;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.eye-left{
+    background-color: black;
+    border-radius: 50%;
+    height: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    width: 1.5rem;
+    z-index: 3;
+    left: 1.5rem;
+}
+
+.eye-right{
+    background-color: black;
+    border-radius: 50%;
+    height: 1.5rem;
+    position: absolute;
+    top: 0.5rem;
+    width: 1.5rem;
+    z-index: 3;
+    right: 1.5rem;
+}
+
+.pupil{
+    background-color: white;
+    border-radius: 50%;
+    height: 0.5rem;
+    left: 0.3rem;
+    position: absolute;
+    top: 0.2rem;
+    width: 0.5rem;
+}
+
+.mouth{
+    background-color: black;
+    border-bottom-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    height: 1.75rem;
+    left: 2.5rem;
+    position: absolute;
+    top: 3rem;
+    width: 3rem;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.tongue{
+    background-color: red;
+    border-radius: 50%;
+    height: 1.5rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.cheek-left{
+    background-color: pink;
+    border-radius: 50%;
+    height: 0.6rem;
+    position: absolute;
+    top: 2.25rem;
+    width: 1rem;
+    z-index: 3;
+    left: 1rem;
+}
+
+
+.cheek-right{
+    background-color: pink;
+    border-radius: 50%;
+    height: 0.6rem;
+    position: absolute;
+    top: 2.25rem;
+    width: 1rem;
+    z-index: 3;
+    right: 1rem;
+}
+
+.ear-left{
+    background-color: #EDC196;
+    border-radius: 50%;
+    height: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    width: 2rem;
+    left: -1rem;
+}
+
+.ear-right{
+    background-color: #EDC196;
+    border-radius: 50%;
+    height: 2rem;
+    position: absolute;
+    top: 0.5rem;
+    width: 2rem;
+    right: -1rem;
+}
+
+.neck{
+    background-color:  #EDC196;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    height: 1.75rem;
+    left: 11.2rem;
+    position: absolute;
+    top: 17.9rem;
+    width: 1.75rem;
+    z-index: 2;
+}
+
+.hat{
+    background-color: black;
+    border-top-right-radius: 30%;
+    height: 11rem;
+    left: 7.5rem;
+    position: absolute;
+    top: 5.2rem;
+    width: 10rem;
+    z-index: -1;
+    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+
+.hat-brim{
+    background-color: black;
+    border-radius: 0.5rem;
+    height: 1.1rem;
+    left: 2rem;
+    position: absolute;
+    top: 10rem;
+    width: 20rem;
+}
