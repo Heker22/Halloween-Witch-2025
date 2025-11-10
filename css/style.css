@@ -1,17 +1,17 @@
-body{
+body {
     background-image: url(../img/witch.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.container{
+.container {
     width: 60rem;
     height: 40rem;
     margin: 0 auto;
     position: relative;
 }
 
-.witch{
+.witch {
     bottom: 0;
     height: inherit;
     left: 10rem;
@@ -19,29 +19,29 @@ body{
     width: 25rem;
 }
 
-.hair{
-background-color: rgb(255, 123, 0);
-border-bottom-left-radius: 0.5rem;
-border-bottom-right-radius: 0.5rem;
-height: 8rem;
-left: 6rem;
-position: absolute;
-top: 11rem;
-width: 12rem;
+.hair {
+    background-color: rgb(255, 123, 0);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    height: 8rem;
+    left: 6rem;
+    position: absolute;
+    top: 11rem;
+    width: 12rem;
 }
 
-.head{
-height: 6rem;
-background-color: #F5DABF;
-border-bottom-left-radius: 10rem;
-border-bottom-right-radius: 10rem;
-left: 8rem;
-position: absolute;
-top: 12rem;
-width: 8rem;
+.head {
+    height: 6rem;
+    background-color: #F5DABF;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    left: 8rem;
+    position: absolute;
+    top: 12rem;
+    width: 8rem;
 }
 
-.head-copy{
+.head-copy {
     background-color: #F5DABF;
     border-bottom-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -51,7 +51,7 @@ width: 8rem;
     z-index: 3;
 }
 
-.eye-left{
+.eye-left {
     background-color: black;
     border-radius: 50%;
     height: 1.5rem;
@@ -62,7 +62,7 @@ width: 8rem;
     left: 1.5rem;
 }
 
-.eye-right{
+.eye-right {
     background-color: black;
     border-radius: 50%;
     height: 1.5rem;
@@ -73,7 +73,7 @@ width: 8rem;
     right: 1.5rem;
 }
 
-.pupil{
+.pupil {
     background-color: white;
     border-radius: 50%;
     height: 0.5rem;
@@ -83,7 +83,7 @@ width: 8rem;
     width: 0.5rem;
 }
 
-.mouth{
+.mouth {
     background-color: black;
     border-bottom-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
@@ -96,7 +96,7 @@ width: 8rem;
     z-index: 3;
 }
 
-.tongue{
+.tongue {
     background-color: red;
     border-radius: 50%;
     height: 1.5rem;
@@ -104,7 +104,7 @@ width: 8rem;
     top: 0.5rem;
 }
 
-.cheek-left{
+.cheek-left {
     background-color: pink;
     border-radius: 50%;
     height: 0.6rem;
@@ -116,7 +116,7 @@ width: 8rem;
 }
 
 
-.cheek-right{
+.cheek-right {
     background-color: pink;
     border-radius: 50%;
     height: 0.6rem;
@@ -127,7 +127,7 @@ width: 8rem;
     right: 1rem;
 }
 
-.ear-left{
+.ear-left {
     background-color: #EDC196;
     border-radius: 50%;
     height: 2rem;
@@ -137,7 +137,7 @@ width: 8rem;
     left: -1rem;
 }
 
-.ear-right{
+.ear-right {
     background-color: #EDC196;
     border-radius: 50%;
     height: 2rem;
@@ -147,8 +147,8 @@ width: 8rem;
     right: -1rem;
 }
 
-.neck{
-    background-color:  #EDC196;
+.neck {
+    background-color: #EDC196;
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
     height: 1.75rem;
@@ -159,7 +159,7 @@ width: 8rem;
     z-index: 2;
 }
 
-.hat{
+.hat {
     background-color: black;
     border-top-right-radius: 30%;
     height: 11rem;
@@ -168,10 +168,10 @@ width: 8rem;
     top: 5.2rem;
     width: 10rem;
     z-index: -1;
-    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+    transform: rotate(-60deg) skewX(-30deg) scale(1, .866);
 }
 
-.hat-brim{
+.hat-brim {
     background-color: black;
     border-radius: 0.5rem;
     height: 1.1rem;
@@ -181,7 +181,7 @@ width: 8rem;
     width: 20rem;
 }
 
-.arm-left{
+.arm-left {
     background-color: black;
     border-bottom-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -192,7 +192,7 @@ width: 8rem;
     left: 3rem;
 }
 
-.arm-right{
+.arm-right {
     background-color: black;
     border-bottom-left-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -205,27 +205,27 @@ width: 8rem;
 }
 
 
-.hand-left{
-background-color: #F5DABF;
-border-radius: 50%;
-height: 2.25rem;
-position: absolute;
-top: -0.75rem;
-width: 2.25rem;
-left: -1rem;
+.hand-left {
+    background-color: #F5DABF;
+    border-radius: 50%;
+    height: 2.25rem;
+    position: absolute;
+    top: -0.75rem;
+    width: 2.25rem;
+    left: -1rem;
 }
 
-.hand-right{
-background-color: #F5DABF;
-border-radius: 50%;
-height: 2.25rem;
-position: absolute;
-top: -0.75rem;
-width: 2.25rem;
-right: -1rem;
+.hand-right {
+    background-color: #F5DABF;
+    border-radius: 50%;
+    height: 2.25rem;
+    position: absolute;
+    top: -0.75rem;
+    width: 2.25rem;
+    right: -1rem;
 }
 
-.finger-left{
+.finger-left {
     background-color: #F5DABF;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
@@ -236,7 +236,7 @@ right: -1rem;
     left: 1.25em;
 }
 
-.finger-right{
+.finger-right {
     background-color: #F5DABF;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
@@ -247,7 +247,7 @@ right: -1rem;
     right: 1.25em;
 }
 
-.finger-skew-left{
+.finger-skew-left {
     background-color: #F5DABF;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
@@ -260,7 +260,7 @@ right: -1rem;
 }
 
 
-.finger-skew-right{
+.finger-skew-right {
     background-color: #F5DABF;
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
@@ -273,7 +273,7 @@ right: -1rem;
 }
 
 
-.body{
+.body {
     background-color: black;
     height: 18rem;
     position: absolute;
@@ -284,7 +284,7 @@ right: -1rem;
 }
 
 
-.leg{
+.leg {
     background-color: black;
     height: 2.75rem;
     left: 10rem;
@@ -293,7 +293,7 @@ right: -1rem;
     width: 1.5rem;
 }
 
-.foot{
+.foot {
     background-color: rgb(96, 65, 51);
     border-top-left-radius: 0.5rem;
     height: 0.75rem;
@@ -303,7 +303,7 @@ right: -1rem;
     width: 3rem;
 }
 
-.cauldron{
+.cauldron {
     height: 10.5rem;
     left: 19rem;
     overflow: hidden;
@@ -313,7 +313,7 @@ right: -1rem;
 
 }
 
-.cauldron-body{
+.cauldron-body {
     background-color: #2D4158;
     border-radius: 50%;
     bottom: 0.25rem;
@@ -323,7 +323,7 @@ right: -1rem;
     z-index: 4;
 }
 
-.cauldron-brim-top{
+.cauldron-brim-top {
     background-color: #2D4158;
     height: 1.5rem;
     position: absolute;
@@ -334,7 +334,7 @@ right: -1rem;
 }
 
 
-.cauldron-brim-bottom{
+.cauldron-brim-bottom {
     background-color: #2D4158;
     height: 1.5rem;
     position: absolute;
@@ -346,7 +346,7 @@ right: -1rem;
     width: 90%;
 }
 
-.cauldron-leg-left{
+.cauldron-leg-left {
     background-color: #2D4158;
     border-top-right-radius: 50%;
     border-top-left-radius: 80%;
@@ -355,10 +355,10 @@ right: -1rem;
     position: absolute;
     width: 2rem;
     left: 1rem;
-    transform: rotate(160deg) skewX(-30deg) scale(1,.466);
+    transform: rotate(160deg) skewX(-30deg) scale(1, .466);
 }
 
-.cauldron-leg-right{
+.cauldron-leg-right {
     background-color: #2D4158;
     border-top-right-radius: 50%;
     border-top-left-radius: 80%;
@@ -367,6 +367,216 @@ right: -1rem;
     position: absolute;
     width: 2rem;
     right: 1rem;
-    transform: rotate(120deg) skewX(-30deg) scale(1,.466);
+    transform: rotate(120deg) skewX(-30deg) scale(1, .466);
 }
 
+.cauldron-leg-small {
+
+    background-color: #2D4158;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 80%;
+    bottom: -1.5rem;
+    height: 7rem;
+    position: absolute;
+    width: 2rem;
+    right: 3rem;
+    transform: rotate(120deg) skewX(-30deg) scale(1, .466);
+}
+
+.go-green-left {
+    animation: go-bob 1.5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    background-color: green;
+    height: 2.5rem;
+    left: 20.25rem;
+    top: 22.5rem;
+    width: 2.5rem;
+}
+
+.go-green-right {
+    animation: go-bob 1.5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    background-color: green;
+    animation-delay: 0.6s;
+    height: 4rem;
+    left: 22rem;
+    top: 22rem;
+    width: 4rem;
+}
+
+.go-red-left {
+    animation: go-bob 1.5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    height: 5rem;
+    width: 5rem;
+    right: 30rem;
+    top: 21.5rem;
+
+}
+
+.go-red-right {
+    animation: go-bob 1.5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    height: 3.5rem;
+    width: 3.5rem;
+    right: 28rem;
+    top: 22.5rem;
+    animation-delay: 0.3s;
+
+}
+
+
+.bottom-go-green-left {
+    position: absolute;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    bottom: 0;
+    z-index: 4;
+    background-color: green;
+    border-bottom-left-radius: 4rem;
+    height: 0.55rem;
+    bottom: 6.25rem;
+    left: 17rem;
+    width: 7rem;
+}
+
+.bottom-go-red-line {
+    position: absolute;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    bottom: 0;
+    z-index: 4;
+    background-color: red;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    height: 0.55rem;
+    bottom: 6.25rem;
+    left: 24.25rem;
+    width: 5rem;
+}
+
+
+.bubble-red {
+    animation: bubble-float 5s infinite, disappear 5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    z-index: 3;
+    animation-delay: 2s;
+    background-color: red;
+    height: 1rem;
+    left: 27.5rem;
+    width: 1rem;
+}
+
+.bubble-green {
+    animation: bubble-float 5s infinite, disappear 5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    z-index: 3;
+    animation-delay: 2s;
+    background-color: green;
+    height: 1.5rem;
+    left: 23rem;
+    width: 1.5rem;
+}
+
+.bubble-green-two {
+    animation: bubble-float 5s infinite, disappear 5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    z-index: 3;
+    animation-delay: 3.5s;
+    background-color: green;
+    height: 0.75rem;
+    left: 24rem;
+    width: 0.75rem;
+}
+
+.bubble-yellow {
+    animation: bubble-float 5s infinite, disappear 5s infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    z-index: 3;
+    animation-delay: 2s;
+    background-color: yellow;
+    height: 3rem;
+    left: 24.5rem;
+    width: 3rem;
+}
+
+.lone-eye {
+    background-color: white;
+    border-radius: 50%;
+    bottom: 0;
+    height: 2rem;
+    left: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 2rem;
+    z-index: 5;
+}
+
+
+.lone-eye-color {
+    background-color: green;
+    border-radius: 50%;
+    bottom: 6rem;
+    height: 1.25rem;
+    left: 0.4rem;
+    position: absolute;
+    width: 1.25rem;
+    top: 0.35rem;
+}
+
+
+.lone-eye-pupil {
+    background-color: black;
+    border-radius: 50%;
+    height: 0.6rem;
+    width: 0.6rem;
+    position: absolute;
+    top: 0.15rem;
+    right: 0.3rem;
+}
+
+
+.cat{
+    bottom: 6.25rem;
+    height: 15rem;
+    position: absolute;
+    left: 29.5rem;
+    width: 15rem;
+}
+
+.cat-body{
+    background-color: black;
+    bottom: 0;
+    border-top-left-radius: 8rem;
+    border-top-right-radius: 8rem;
+    height: 5rem;
+    position: absolute;
+    right: 5.5rem;
+    width: 5rem;
+
+}
+
+.cat-head{
+    background-color: black;
+    border-top-left-radius: 4.5rem;
+    border-top-right-radius: 4.5rem;
+    bottom: 3rem;
+    height: 4rem;
+    position: absolute;
+    right: 6rem;
+    width: 4rem;
+}
