@@ -517,9 +517,9 @@ body {
 .lone-eye {
     background-color: white;
     border-radius: 50%;
-    bottom: 0;
+    bottom: 6rem;
     height: 2rem;
-    left: 0;
+    left: 13rem;
     position: absolute;
     transform: rotate(45deg);
     width: 2rem;
