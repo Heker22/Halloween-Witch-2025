@@ -580,3 +580,96 @@ body {
     right: 6rem;
     width: 4rem;
 }
+
+.cat-pupil-left{
+background-color: white;
+border-radius: 50%;
+height: 0.6rem;
+top: 1.25rem;
+width: 0.6rem;
+position: absolute;
+left: 1.2rem;
+
+}
+
+
+.cat-pupil-right{
+background-color: white;
+border-radius: 50%;
+height: 0.6rem;
+top: 1.25rem;
+width: 0.6rem;
+position: absolute;
+right: 1.2rem;
+}
+
+
+.cat-ear-left{
+    background-color: black;
+    height: 1.5rem;
+    width: 1.5rem;
+    top: -0.75rem;
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    left: 0.25rem;
+    transform: rotate(340deg);
+}
+
+.cat-ear-right{
+    background-color: black;
+    height: 1.5rem;
+    width: 1.5rem;
+    top: -0.75rem;
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    right: 0.25rem;
+    transform: rotate(20deg);
+}
+
+.cat-tail{
+    background-color: black;
+    bottom: 0;
+    height: 0.5rem;
+    left: 1rem;
+    width: 4rem;
+    position: absolute;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+@keyframes go-bob{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(0.25rem);}
+    100%{transform: translateY(0);}
+
+}
+
+@keyframes bubble-float {
+    0%{transform: translate(0, 0);}
+    50%{transform: translate(1rem, -7rem);}
+    100%{transform: translate(-0.7rem, -9rem);}
+}
+
+@keyframes disappear {
+    0%{opacity: 1;}
+    50%{opacity: 0.8;}
+    100%{opacity: 0;}
+}
+
+@keyframes drip-green {
+    50%{height: 1.75rem;}
+    100%{height: 2.5rem;}
+}
+
+
+@keyframes drip-red {
+    50%{height: 3rem;}
+    100%{height: 4rem;}
+}
+
+@keyframes drop {
+    25%{ height: 1.75rem; transform: translateY(0.5rem);}
+    75%{ height: 1.5rem; transform: translateY(4rem);}
+    100%{ height: 1rem; transform: translateY(8rem);}
+}
+
